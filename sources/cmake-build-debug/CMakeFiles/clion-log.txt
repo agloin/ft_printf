@@ -1,0 +1,4 @@
+/home/agloin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6911.21/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/agloin/school21/git/projects/ft_printf/sources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/agloin/school21/git/projects/ft_printf/sources/cmake-build-debug
