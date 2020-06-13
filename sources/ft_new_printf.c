@@ -115,6 +115,7 @@ void    other_for_d(t_var *var, long long int num) // вывод %025d
         ft_putnbr_ll(num);
     }
     //--------------------------------ПРОДОЛЖЕНИЕ ЗДЕСЬ------------------------------\\
+
     else
         ft_putnbr_ll(num);
 }
@@ -219,8 +220,8 @@ int     ft_new_printf(const char *format, ...)
 
 int main()
 {
-    printf("{%.5d}\n", 500);
-    printf("{%05d}\n", 500);
+//    printf("{%.5d}\n", 500);
+//    printf("{%05d}\n", 500);
     ft_new_printf("{%05d}\n", 500);
     return 0;
 }

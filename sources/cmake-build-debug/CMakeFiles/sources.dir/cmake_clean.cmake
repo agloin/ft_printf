@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/sources.dir/ft_atoi_base.c.o"
   "CMakeFiles/sources.dir/ft_new_printf.c.o"
   "CMakeFiles/sources.dir/ft_printf.c.o"
   "CMakeFiles/sources.dir/test_file.c.o"

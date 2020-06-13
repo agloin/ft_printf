@@ -4,9 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/agloin/school21/git/projects/ft_printf/sources/ft_new_printf.c" "/home/agloin/school21/git/projects/ft_printf/sources/cmake-build-debug/CMakeFiles/sources.dir/ft_new_printf.c.o"
-  "/home/agloin/school21/git/projects/ft_printf/sources/ft_printf.c" "/home/agloin/school21/git/projects/ft_printf/sources/cmake-build-debug/CMakeFiles/sources.dir/ft_printf.c.o"
-  "/home/agloin/school21/git/projects/ft_printf/sources/test_file.c" "/home/agloin/school21/git/projects/ft_printf/sources/cmake-build-debug/CMakeFiles/sources.dir/test_file.c.o"
+  "/home/agloin/school21/ft_printf_git/sources/ft_atoi_base.c" "/home/agloin/school21/ft_printf_git/sources/cmake-build-debug/CMakeFiles/sources.dir/ft_atoi_base.c.o"
+  "/home/agloin/school21/ft_printf_git/sources/ft_new_printf.c" "/home/agloin/school21/ft_printf_git/sources/cmake-build-debug/CMakeFiles/sources.dir/ft_new_printf.c.o"
+  "/home/agloin/school21/ft_printf_git/sources/ft_printf.c" "/home/agloin/school21/ft_printf_git/sources/cmake-build-debug/CMakeFiles/sources.dir/ft_printf.c.o"
+  "/home/agloin/school21/ft_printf_git/sources/test_file.c" "/home/agloin/school21/ft_printf_git/sources/cmake-build-debug/CMakeFiles/sources.dir/test_file.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

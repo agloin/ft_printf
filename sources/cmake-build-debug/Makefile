@@ -48,10 +48,10 @@ RM = /home/agloin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6911.21/bin
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/agloin/school21/git/projects/ft_printf/sources
+CMAKE_SOURCE_DIR = /home/agloin/school21/ft_printf_git/sources
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/agloin/school21/git/projects/ft_printf/sources/cmake-build-debug
+CMAKE_BINARY_DIR = /home/agloin/school21/ft_printf_git/sources/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/agloin/school21/git/projects/ft_printf/sources/cmake-build-debug/CMakeFiles /home/agloin/school21/git/projects/ft_printf/sources/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/agloin/school21/ft_printf_git/sources/cmake-build-debug/CMakeFiles /home/agloin/school21/ft_printf_git/sources/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/agloin/school21/git/projects/ft_printf/sources/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/agloin/school21/ft_printf_git/sources/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,33 @@ sources: cmake_check_build_system
 sources/fast:
 	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/build
 .PHONY : sources/fast
+
+ft_atoi_base.o: ft_atoi_base.c.o
+
+.PHONY : ft_atoi_base.o
+
+# target to build an object file
+ft_atoi_base.c.o:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/ft_atoi_base.c.o
+.PHONY : ft_atoi_base.c.o
+
+ft_atoi_base.i: ft_atoi_base.c.i
+
+.PHONY : ft_atoi_base.i
+
+# target to preprocess a source file
+ft_atoi_base.c.i:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/ft_atoi_base.c.i
+.PHONY : ft_atoi_base.c.i
+
+ft_atoi_base.s: ft_atoi_base.c.s
+
+.PHONY : ft_atoi_base.s
+
+# target to generate assembly for a file
+ft_atoi_base.c.s:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/ft_atoi_base.c.s
+.PHONY : ft_atoi_base.c.s
 
 ft_new_printf.o: ft_new_printf.c.o
 
@@ -213,6 +240,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... sources"
 	@echo "... edit_cache"
+	@echo "... ft_atoi_base.o"
+	@echo "... ft_atoi_base.i"
+	@echo "... ft_atoi_base.s"
 	@echo "... ft_new_printf.o"
 	@echo "... ft_new_printf.i"
 	@echo "... ft_new_printf.s"

@@ -31,7 +31,9 @@ int ft_atoi_base(const char *str, int str_base)
 {
     int nb;
     int i;
+    int negatif;
 
+    negatif = 0;
     i = 0;
     nb = 0;
     while (ft_iswhitespace(str[i]))
@@ -48,7 +50,7 @@ int ft_atoi_base(const char *str, int str_base)
         nb = nb + base(str[i], str_base);
         i++;
     }
-    if (negtif)
+    if (negatif)
         return(-nb);
     return (nb);
 }

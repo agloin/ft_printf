@@ -1,4 +1,4 @@
-# Install script for directory: /home/agloin/school21/git/projects/ft_printf/sources
+# Install script for directory: /home/agloin/school21/ft_printf_git/sources
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/agloin/school21/git/projects/ft_printf/sources/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/agloin/school21/ft_printf_git/sources/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
